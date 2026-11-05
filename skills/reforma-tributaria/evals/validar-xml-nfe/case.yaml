@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: validar-xml-nfe
+expected_outcome: |
+  Aponta: item 1 sem grupo IBSCBS; item 2 com cClassTrib 000001 incompatível com CST 200; pCBS 9,21% em vez da alíquota de teste de 0,9% em 2026; vCBS 2,70 não bate com vBC x pCBS; total vCBS 5,00 diferente da soma dos itens. Indica correções.
+context:
+  scaffold_script: place-files.sh

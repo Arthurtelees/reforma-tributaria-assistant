@@ -1,0 +1,35 @@
+cst;descricao_cst;cclasstrib;descricao;reducao_pct;base_legal;observacao
+000;Tributação integral;000001;Operações tributadas integralmente;0;LC 214 art. 4º;Regra geral
+000;Tributação integral;000002;Exploração de via;0;LC 214;Conferir na tabela oficial
+010;Tributação com alíquotas uniformes;010001;Operações do FGTS não realizadas pela Caixa;0;LC 214 art. 212;Regime específico financeiro
+011;Tributação com alíquotas uniformes reduzidas;011001;Assistência funerária;;LC 214;DeRE
+011;Tributação com alíquotas uniformes reduzidas;011002;Planos de assistência à saúde;60;LC 214 art. 237;DeRE
+011;Tributação com alíquotas uniformes reduzidas;011004;Concursos de prognósticos;;LC 214;DeRE
+200;Alíquota reduzida;200003;Cesta Básica Nacional de Alimentos (Anexo I);100;LC 214 art. 125;Alíquota zero — conferir NCM no Anexo I
+200;Alíquota reduzida;200009;Medicamentos (Anexo XIV);100;LC 214 art. 146;Alíquota zero — lista revista pela LC 227
+200;Alíquota reduzida;200014;Produtos hortícolas, frutas e ovos (Anexo XV);100;LC 214 art. 148;Alíquota zero
+200;Alíquota reduzida;200028;Serviços de educação (Anexo II) — ex.: ensino infantil, fundamental, médio, superior, técnico, idiomas (conferir NBS);60;LC 214 art. 129;
+200;Alíquota reduzida;200029;Serviços de saúde (Anexo III) — ex.: medicina, odontologia, fisioterapia, psicologia, fonoaudiologia, enfermagem, nutrição, exames, hospitais, clínicas;60;LC 214 art. 130;
+200;Alíquota reduzida;200034;Alimentos destinados ao consumo humano (Anexo VII);60;LC 214 art. 135;
+200;Alíquota reduzida;200047;Bares e restaurantes;40;LC 214 arts. 273-276;Adquirente sem crédito
+200;Alíquota reduzida;200052;Profissões intelectuais regulamentadas;30;LC 214 art. 127;Requisitos societários
+221;Alíquota fixa proporcional;221001;Locação de imóvel tributada sobre receita bruta;;LC 214 art. 487;Regime transitório
+400;Isenção;400001;Transporte público coletivo urbano/semiurbano/metropolitano;100;LC 214 art. 157;
+410;Imunidade e não incidência;410001;Bonificações;;LC 214;Conferir condições
+410;Imunidade e não incidência;410002;Transferências entre estabelecimentos do mesmo titular;;LC 214;
+410;Imunidade e não incidência;410003;Doações sem contraprestação;;LC 214;
+410;Imunidade e não incidência;410004;Exportações de bens e serviços;;LC 214 art. 79;Mantém créditos
+410;Imunidade e não incidência;410008;Livros, jornais, periódicos e papel;;CF art. 150 VI d;
+410;Imunidade e não incidência;410014;Fornecimento por produtor rural não contribuinte;;LC 214 art. 164;Adquirente com crédito presumido
+510;Diferimento;510001;Energia elétrica;;LC 214 art. 28;
+550;Suspensão;550001;Exportação por comercial exportadora;;LC 214 art. 82;
+550;Suspensão;550008;Repetro;;LC 214 art. 93;550008 a 550013
+550;Suspensão;550014;ZPE;;LC 214;
+550;Suspensão;550016;Reidi;;LC 214;
+620;Tributação monofásica;620001;Combustíveis — monofásica;;LC 214 arts. 172 e 179;Ad rem
+620;Tributação monofásica;620002;Combustíveis — retenção;;LC 214;
+800;Transferência de crédito;800001;Fusão, cisão ou incorporação;;LC 214 art. 55;
+800;Transferência de crédito;800002;Transferência de crédito do associado à cooperativa;;LC 214 art. 271;
+810;Ajuste de IBS na ZFM;810001;Crédito presumido ZFM;;LC 214 art. 450;
+820;Tributação em declaração de regime específico;820001;Planos de saúde (DeRE);;LC 214;
+820;Tributação em declaração de regime específico;820005;Alienação de imóveis;;LC 214;

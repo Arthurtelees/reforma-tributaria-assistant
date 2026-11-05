@@ -1,0 +1,469 @@
+{
+ "_fonte": "LC 123/2006, Anexos I a V (redação LC 155/2016), texto compilado do Planalto, conferido em 05/11/2026. Percentuais em %. ICMS/ISS null = não recolhido no DAS na 6ª faixa.",
+ "anexos": {
+  "I": {
+   "titulo": "Comércio",
+   "faixas": [
+    {
+     "faixa": 1,
+     "ate": 180000,
+     "aliquota": 4.0,
+     "deducao": 0,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 12.74,
+      "PIS": 2.76,
+      "CPP": 41.5,
+      "ICMS": 34
+     }
+    },
+    {
+     "faixa": 2,
+     "ate": 360000,
+     "aliquota": 7.3,
+     "deducao": 5940,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 12.74,
+      "PIS": 2.76,
+      "CPP": 41.5,
+      "ICMS": 34
+     }
+    },
+    {
+     "faixa": 3,
+     "ate": 720000,
+     "aliquota": 9.5,
+     "deducao": 13860,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 12.74,
+      "PIS": 2.76,
+      "CPP": 42,
+      "ICMS": 33.5
+     }
+    },
+    {
+     "faixa": 4,
+     "ate": 1800000,
+     "aliquota": 10.7,
+     "deducao": 22500,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 12.74,
+      "PIS": 2.76,
+      "CPP": 42,
+      "ICMS": 33.5
+     }
+    },
+    {
+     "faixa": 5,
+     "ate": 3600000,
+     "aliquota": 14.3,
+     "deducao": 87300,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 12.74,
+      "PIS": 2.76,
+      "CPP": 42,
+      "ICMS": 33.5
+     }
+    },
+    {
+     "faixa": 6,
+     "ate": 4800000,
+     "aliquota": 19.0,
+     "deducao": 378000,
+     "reparticao": {
+      "IRPJ": 13.5,
+      "CSLL": 10,
+      "Cofins": 28.27,
+      "PIS": 6.13,
+      "CPP": 42.1,
+      "ICMS": null
+     }
+    }
+   ]
+  },
+  "II": {
+   "titulo": "Indústria",
+   "faixas": [
+    {
+     "faixa": 1,
+     "ate": 180000,
+     "aliquota": 4.5,
+     "deducao": 0,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 11.51,
+      "PIS": 2.49,
+      "CPP": 37.5,
+      "IPI": 7.5,
+      "ICMS": 32
+     }
+    },
+    {
+     "faixa": 2,
+     "ate": 360000,
+     "aliquota": 7.8,
+     "deducao": 5940,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 11.51,
+      "PIS": 2.49,
+      "CPP": 37.5,
+      "IPI": 7.5,
+      "ICMS": 32
+     }
+    },
+    {
+     "faixa": 3,
+     "ate": 720000,
+     "aliquota": 10.0,
+     "deducao": 13860,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 11.51,
+      "PIS": 2.49,
+      "CPP": 37.5,
+      "IPI": 7.5,
+      "ICMS": 32
+     }
+    },
+    {
+     "faixa": 4,
+     "ate": 1800000,
+     "aliquota": 11.2,
+     "deducao": 22500,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 11.51,
+      "PIS": 2.49,
+      "CPP": 37.5,
+      "IPI": 7.5,
+      "ICMS": 32
+     }
+    },
+    {
+     "faixa": 5,
+     "ate": 3600000,
+     "aliquota": 14.7,
+     "deducao": 85500,
+     "reparticao": {
+      "IRPJ": 5.5,
+      "CSLL": 3.5,
+      "Cofins": 11.51,
+      "PIS": 2.49,
+      "CPP": 37.5,
+      "IPI": 7.5,
+      "ICMS": 32
+     }
+    },
+    {
+     "faixa": 6,
+     "ate": 4800000,
+     "aliquota": 30.0,
+     "deducao": 720000,
+     "reparticao": {
+      "IRPJ": 8.5,
+      "CSLL": 7.5,
+      "Cofins": 20.96,
+      "PIS": 4.54,
+      "CPP": 23.5,
+      "IPI": 35,
+      "ICMS": null
+     }
+    }
+   ]
+  },
+  "III": {
+   "titulo": "Serviços (locação de bens móveis e serviços não listados no §5º-C)",
+   "faixas": [
+    {
+     "faixa": 1,
+     "ate": 180000,
+     "aliquota": 6.0,
+     "deducao": 0,
+     "reparticao": {
+      "IRPJ": 4,
+      "CSLL": 3.5,
+      "Cofins": 12.82,
+      "PIS": 2.78,
+      "CPP": 43.4,
+      "ISS": 33.5
+     }
+    },
+    {
+     "faixa": 2,
+     "ate": 360000,
+     "aliquota": 11.2,
+     "deducao": 9360,
+     "reparticao": {
+      "IRPJ": 4,
+      "CSLL": 3.5,
+      "Cofins": 14.05,
+      "PIS": 3.05,
+      "CPP": 43.4,
+      "ISS": 32
+     }
+    },
+    {
+     "faixa": 3,
+     "ate": 720000,
+     "aliquota": 13.5,
+     "deducao": 17640,
+     "reparticao": {
+      "IRPJ": 4,
+      "CSLL": 3.5,
+      "Cofins": 13.64,
+      "PIS": 2.96,
+      "CPP": 43.4,
+      "ISS": 32.5
+     }
+    },
+    {
+     "faixa": 4,
+     "ate": 1800000,
+     "aliquota": 16.0,
+     "deducao": 35640,
+     "reparticao": {
+      "IRPJ": 4,
+      "CSLL": 3.5,
+      "Cofins": 13.64,
+      "PIS": 2.96,
+      "CPP": 43.4,
+      "ISS": 32.5
+     }
+    },
+    {
+     "faixa": 5,
+     "ate": 3600000,
+     "aliquota": 21.0,
+     "deducao": 125640,
+     "reparticao": {
+      "IRPJ": 4,
+      "CSLL": 3.5,
+      "Cofins": 12.82,
+      "PIS": 2.78,
+      "CPP": 43.4,
+      "ISS": 33.5
+     }
+    },
+    {
+     "faixa": 6,
+     "ate": 4800000,
+     "aliquota": 33.0,
+     "deducao": 648000,
+     "reparticao": {
+      "IRPJ": 35,
+      "CSLL": 15,
+      "Cofins": 16.03,
+      "PIS": 3.47,
+      "CPP": 30.5,
+      "ISS": null
+     }
+    }
+   ],
+   "teto_iss_5a_faixa": {
+    "limiar_aliquota_efetiva": 14.92537,
+    "reparticao_excedente": {
+     "IRPJ": 6.02,
+     "CSLL": 5.26,
+     "Cofins": 19.28,
+     "PIS": 4.18,
+     "CPP": 65.26
+    }
+   }
+  },
+  "IV": {
+   "titulo": "Serviços do §5º-C (CPP fora do DAS)",
+   "faixas": [
+    {
+     "faixa": 1,
+     "ate": 180000,
+     "aliquota": 4.5,
+     "deducao": 0,
+     "reparticao": {
+      "IRPJ": 18.8,
+      "CSLL": 15.2,
+      "Cofins": 17.67,
+      "PIS": 3.83,
+      "ISS": 44.5
+     }
+    },
+    {
+     "faixa": 2,
+     "ate": 360000,
+     "aliquota": 9.0,
+     "deducao": 8100,
+     "reparticao": {
+      "IRPJ": 19.8,
+      "CSLL": 15.2,
+      "Cofins": 20.55,
+      "PIS": 4.45,
+      "ISS": 40
+     }
+    },
+    {
+     "faixa": 3,
+     "ate": 720000,
+     "aliquota": 10.2,
+     "deducao": 12420,
+     "reparticao": {
+      "IRPJ": 20.8,
+      "CSLL": 15.2,
+      "Cofins": 19.73,
+      "PIS": 4.27,
+      "ISS": 40
+     }
+    },
+    {
+     "faixa": 4,
+     "ate": 1800000,
+     "aliquota": 14.0,
+     "deducao": 39780,
+     "reparticao": {
+      "IRPJ": 17.8,
+      "CSLL": 19.2,
+      "Cofins": 18.9,
+      "PIS": 4.1,
+      "ISS": 40
+     }
+    },
+    {
+     "faixa": 5,
+     "ate": 3600000,
+     "aliquota": 22.0,
+     "deducao": 183780,
+     "reparticao": {
+      "IRPJ": 18.8,
+      "CSLL": 19.2,
+      "Cofins": 18.08,
+      "PIS": 3.92,
+      "ISS": 40
+     }
+    },
+    {
+     "faixa": 6,
+     "ate": 4800000,
+     "aliquota": 33.0,
+     "deducao": 828000,
+     "reparticao": {
+      "IRPJ": 53.5,
+      "CSLL": 21.5,
+      "Cofins": 20.55,
+      "PIS": 4.45,
+      "ISS": null
+     }
+    }
+   ],
+   "teto_iss_5a_faixa": {
+    "limiar_aliquota_efetiva": 12.5,
+    "reparticao_excedente": {
+     "IRPJ": 31.33,
+     "CSLL": 32.0,
+     "Cofins": 30.13,
+     "PIS": 6.54
+    }
+   }
+  },
+  "V": {
+   "titulo": "Serviços do §5º-I (Fator R < 28%)",
+   "faixas": [
+    {
+     "faixa": 1,
+     "ate": 180000,
+     "aliquota": 15.5,
+     "deducao": 0,
+     "reparticao": {
+      "IRPJ": 25,
+      "CSLL": 15,
+      "Cofins": 14.1,
+      "PIS": 3.05,
+      "CPP": 28.85,
+      "ISS": 14
+     }
+    },
+    {
+     "faixa": 2,
+     "ate": 360000,
+     "aliquota": 18.0,
+     "deducao": 4500,
+     "reparticao": {
+      "IRPJ": 23,
+      "CSLL": 15,
+      "Cofins": 14.1,
+      "PIS": 3.05,
+      "CPP": 27.85,
+      "ISS": 17
+     }
+    },
+    {
+     "faixa": 3,
+     "ate": 720000,
+     "aliquota": 19.5,
+     "deducao": 9900,
+     "reparticao": {
+      "IRPJ": 24,
+      "CSLL": 15,
+      "Cofins": 14.92,
+      "PIS": 3.23,
+      "CPP": 23.85,
+      "ISS": 19
+     }
+    },
+    {
+     "faixa": 4,
+     "ate": 1800000,
+     "aliquota": 20.5,
+     "deducao": 17100,
+     "reparticao": {
+      "IRPJ": 21,
+      "CSLL": 15,
+      "Cofins": 15.74,
+      "PIS": 3.41,
+      "CPP": 23.85,
+      "ISS": 21
+     }
+    },
+    {
+     "faixa": 5,
+     "ate": 3600000,
+     "aliquota": 23.0,
+     "deducao": 62100,
+     "reparticao": {
+      "IRPJ": 23,
+      "CSLL": 12.5,
+      "Cofins": 14.1,
+      "PIS": 3.05,
+      "CPP": 23.85,
+      "ISS": 23.5
+     }
+    },
+    {
+     "faixa": 6,
+     "ate": 4800000,
+     "aliquota": 30.5,
+     "deducao": 540000,
+     "reparticao": {
+      "IRPJ": 35,
+      "CSLL": 15.5,
+      "Cofins": 16.44,
+      "PIS": 3.56,
+      "CPP": 29.5,
+      "ISS": null
+     }
+    }
+   ]
+  }
+ }
+}

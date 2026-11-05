@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.skill
+.pytest_cache/
+evals/results/
+*-workspace/
+problemas*.csv

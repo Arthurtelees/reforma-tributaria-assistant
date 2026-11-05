@@ -1,0 +1,30 @@
+name: testes
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.9", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Testes unitários
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m unittest discover -s tests -v
+      - name: Validador nos exemplos
+        shell: bash
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python skills/reforma-tributaria/scripts/validar_nfe.py examples/nfe_exemplo_2026.xml
+          ! python skills/reforma-tributaria/scripts/validar_nfe.py examples/nfe_com_erros_2026.xml

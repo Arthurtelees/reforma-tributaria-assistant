@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: clinica-presumido-diagnostico
+expected_outcome: |
+  Grava diagnostico.md com: redução de 60% para serviços de saúde (fisioterapia, Anexo III), comparação carga atual (ISS 2% + PIS/Cofins 3,65%) x anos de transição até 2033, efeito B2C (paciente PF não toma crédito), 2026 como ano de teste, alíquotas como estimativa, e plano de ação com prazos.

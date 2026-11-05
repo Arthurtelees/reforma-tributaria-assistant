@@ -1,0 +1,22 @@
+{
+  "name": "reforma-tributaria",
+  "version": "1.1.0",
+  "description": "Copiloto da Reforma Tributária brasileira (IBS, CBS e Imposto Seletivo) para Claude Code: legislação, transição 2026–2033, cálculos, NF-e/cClassTrib, Simples Nacional, split payment, precificação e checklists para contabilidade e pessoa física.",
+  "author": {
+    "name": "Arthur Teles"
+  },
+  "license": "MIT",
+  "keywords": [
+    "reforma-tributaria",
+    "ibs",
+    "cbs",
+    "imposto-seletivo",
+    "lc-214",
+    "nfe",
+    "contabilidade",
+    "brasil",
+    "tributario"
+  ],
+  "repository": "https://github.com/Arthurtelees/reforma-tributaria-assistant",
+  "homepage": "https://github.com/Arthurtelees/reforma-tributaria-assistant"
+}

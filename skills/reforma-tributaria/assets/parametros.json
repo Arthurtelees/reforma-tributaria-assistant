@@ -1,0 +1,153 @@
+{
+  "_sobre": "Parâmetros da Reforma Tributária usados pelos scripts. Atualize este arquivo quando sair alíquota oficial (resolução do Senado / leis dos entes). Percentuais em fração decimal (0.113 = 11,3%).",
+  "data_base": "2026-11-05",
+  "cenario_padrao": "tcu_cgibs",
+  "cenarios": {
+    "tcu_cgibs": {
+      "descricao": "CBS 11,3% (referência do TCU, 28/10/2026, pendente de resolução do Senado; aplicável 11,2% em 2027–2028) + IBS 18,70% (estimativa orçamentária do CGIBS, Res. 14/2026). Combinação ad hoc de metodologias diferentes — soma 30,0%, cenário conservador.",
+      "cbs_referencia": 0.113,
+      "ibs_referencia": 0.187
+    },
+    "cgibs_27_91": {
+      "descricao": "Estimativa orçamentária da Res. CGIBS 14/2026: CBS 9,21% + IBS 18,70% = 27,91%.",
+      "cbs_referencia": 0.0921,
+      "ibs_referencia": 0.187
+    },
+    "fazenda_28": {
+      "descricao": "Estimativa Fazenda (dez/2024) ~28%: CBS 8,8% + IBS 19,2% (divisão ilustrativa).",
+      "cbs_referencia": 0.088,
+      "ibs_referencia": 0.192
+    },
+    "trava_26_5": {
+      "descricao": "Cenário da 'trava' legal de 26,5% (LC 214 art. 475): CBS 8,8% + IBS 17,7% (divisão ilustrativa).",
+      "cbs_referencia": 0.088,
+      "ibs_referencia": 0.177
+    }
+  },
+  "proporcao_ibs_municipal": 0.2,
+  "_proporcao_ibs_municipal": "Divisão ILUSTRATIVA do IBS entre UF e município (a soma é o que importa para a carga). Cada ente fixará a sua alíquota por lei.",
+  "transicao": {
+    "2026": {
+      "cbs_fixa": 0.009,
+      "ibs_uf_fixa": 0.001,
+      "ibs_mun_fixa": 0.0,
+      "fator_ibs": null,
+      "fator_icms_iss": 1.0,
+      "pis_cofins": true,
+      "ipi": true,
+      "imposto_seletivo": false,
+      "nota": "Ano de teste. Recolhimento dispensado para quem cumpre obrigações acessórias (LC 214 art. 348 §1º; Ato Conjunto RFB/CGIBS 1/2025). Valor compensável com PIS/Cofins."
+    },
+    "2027": {
+      "cbs_desconto_pp": 0.001,
+      "ibs_uf_fixa": 0.0005,
+      "ibs_mun_fixa": 0.0005,
+      "fator_ibs": null,
+      "fator_icms_iss": 1.0,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "CBS cheia menos 0,1 p.p.; PIS/Cofins extintos; IPI zero (exceto ZFM); início do IS."
+    },
+    "2028": {
+      "cbs_desconto_pp": 0.001,
+      "ibs_uf_fixa": 0.0005,
+      "ibs_mun_fixa": 0.0005,
+      "fator_ibs": null,
+      "fator_icms_iss": 1.0,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "Igual a 2027."
+    },
+    "2029": {
+      "fator_ibs": 0.1,
+      "fator_icms_iss": 0.9,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "ICMS/ISS a 90%; IBS ≈ 10% da referência plena — ESTIMATIVA (Senado fixa com base no TCU para compensar ICMS/ISS, ADCT art. 130)."
+    },
+    "2030": {
+      "fator_ibs": 0.2,
+      "fator_icms_iss": 0.8,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "ICMS/ISS a 80%; IBS ≈ 20% da referência plena — ESTIMATIVA (Senado fixa com base no TCU para compensar ICMS/ISS, ADCT art. 130)."
+    },
+    "2031": {
+      "fator_ibs": 0.3,
+      "fator_icms_iss": 0.7,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "ICMS/ISS a 70%; IBS ≈ 30% da referência plena — ESTIMATIVA (Senado fixa com base no TCU para compensar ICMS/ISS, ADCT art. 130)."
+    },
+    "2032": {
+      "fator_ibs": 0.4,
+      "fator_icms_iss": 0.6,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "ICMS/ISS a 60%; IBS ≈ 40% da referência plena — ESTIMATIVA (Senado fixa com base no TCU para compensar ICMS/ISS, ADCT art. 130)."
+    },
+    "2033": {
+      "fator_ibs": 1.0,
+      "fator_icms_iss": 0.0,
+      "pis_cofins": false,
+      "ipi": false,
+      "imposto_seletivo": true,
+      "nota": "ICMS/ISS extintos; IBS integral."
+    }
+  },
+  "reducoes": {
+    "padrao": 0.0,
+    "profissoes_intelectuais": 0.3,
+    "bares_restaurantes_hotelaria_turismo": 0.4,
+    "reduzida_60": 0.6,
+    "locacao_imoveis": 0.7,
+    "alienacao_imoveis": 0.5,
+    "aliquota_zero": 1.0
+  },
+  "imoveis": {
+    "redutor_social_locacao_mensal": 600.0,
+    "redutor_social_imovel_residencial_novo": 100000.0,
+    "redutor_social_lote_residencial": 30000.0,
+    "pf_locacao_limite_receita_anual": 240000.0,
+    "pf_locacao_limite_imoveis": 3,
+    "_pf_locacao": "Contribuinte: ano anterior > R$ 240 mil E > 3 imóveis (art. 251 §1º I) ou, no próprio ano, > 120% do limite (§2º II). Limite atualizado mensalmente pelo IPCA (§5º) — valor nominal aqui.",
+    "pf_locacao_limite_mesmo_ano_fator": 1.2
+  },
+  "cashback": {
+    "utilidades": {
+      "cbs": 1.0,
+      "ibs": 0.2
+    },
+    "demais": {
+      "cbs": 0.2,
+      "ibs": 0.2
+    },
+    "inicio_cbs": 2027,
+    "inicio_ibs": 2029
+  },
+  "servicos_financeiros_aliquota": {
+    "2027": 0.1085,
+    "2028": 0.1085,
+    "2029": 0.11,
+    "2030": 0.1115,
+    "2031": 0.113,
+    "2032": 0.115,
+    "2033": 0.125
+  },
+  "limites": {
+    "produtor_rural_nao_contribuinte": 3600000.0,
+    "nanoempreendedor_fracao_limite_mei": 0.5,
+    "limite_mei": {
+      "2026": 81000.0,
+      "2027": 110000.0,
+      "2028": 140000.0
+    },
+    "_limite_mei": "LC 238/2026 (DOU 21/10/2026). Nanoempreendedor = PF com receita < 50% do limite do MEI (LC 214 art. 26, IV)."
+  }
+}

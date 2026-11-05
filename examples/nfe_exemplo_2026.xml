@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe"><NFe><infNFe Id="NFe35261100000000000100550010000001231845129379" versao="4.00">
+<ide><mod>55</mod><nNF>123</nNF><dhEmi>2026-11-04T10:00:00-03:00</dhEmi></ide><emit><CRT>3</CRT></emit>
+<det nItem="1"><prod><vProd>1000.00</vProd></prod><imposto>
+<ICMS><ICMS00><vICMS>180.00</vICMS></ICMS00></ICMS>
+<IBSCBS><CST>000</CST><cClassTrib>000001</cClassTrib><gIBSCBS><vBC>1000.00</vBC>
+<gIBSUF><pIBSUF>0.1000</pIBSUF><vIBSUF>1.00</vIBSUF></gIBSUF><gIBSMun><pIBSMun>0.0000</pIBSMun><vIBSMun>0.00</vIBSMun></gIBSMun>
+<vIBS>1.00</vIBS><gCBS><pCBS>0.9000</pCBS><vCBS>9.00</vCBS></gCBS></gIBSCBS></IBSCBS></imposto></det>
+<det nItem="2"><prod><vProd>200.00</vProd></prod><imposto>
+<IBSCBS><CST>200</CST><cClassTrib>200034</cClassTrib><gIBSCBS><vBC>200.00</vBC>
+<gIBSUF><pIBSUF>0.1000</pIBSUF><gRed><pRedAliq>60.0000</pRedAliq><pAliqEfet>0.0400</pAliqEfet></gRed><vIBSUF>0.08</vIBSUF></gIBSUF>
+<gIBSMun><pIBSMun>0.0000</pIBSMun><vIBSMun>0.00</vIBSMun></gIBSMun><vIBS>0.08</vIBS>
+<gCBS><pCBS>0.9000</pCBS><gRed><pRedAliq>60.0000</pRedAliq><pAliqEfet>0.3600</pAliqEfet></gRed><vCBS>0.72</vCBS></gCBS></gIBSCBS></IBSCBS></imposto></det>
+<total><IBSCBSTot><vBCIBSCBS>1200.00</vBCIBSCBS><gIBS><vIBS>1.08</vIBS></gIBS><gCBS><vCBS>9.72</vCBS></gCBS></IBSCBSTot></total>
+</infNFe></NFe></nfeProc>

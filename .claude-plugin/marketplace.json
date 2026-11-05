@@ -1,0 +1,13 @@
+{
+  "name": "reforma-tributaria-marketplace",
+  "owner": {
+    "name": "Arthur Teles"
+  },
+  "plugins": [
+    {
+      "name": "reforma-tributaria",
+      "source": "./",
+      "description": "Copiloto da Reforma Tributária brasileira (IBS/CBS/IS) para Claude Code."
+    }
+  ]
+}

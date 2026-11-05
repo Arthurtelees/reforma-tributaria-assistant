@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: simples-b2b-decisao
+expected_outcome: |
+  Compara numericamente IBS/CBS dentro do DAS x regime regular, explica que cliente B2B só credita o valor pago no DAS, informa a situação dos prazos de opção para 2027 (janela até 30/10/2026, cancelamento até 20/12/2026, nova janela para o 2º semestre) e dá uma recomendação com ressalvas.
